@@ -1,0 +1,138 @@
+{
+  "language": "العربية",
+  "login": "تسجيل الدخول",
+  "register": "إنشاء حساب",
+  "email_phone": "البريد الإلكتروني / رقم الجوال",
+  "password": "كلمة المرور",
+  "confirm": "تأكيد",
+  "select_language": "اختيار اللغة",
+
+  "bookings": "الحجوزات",
+  "notifications": "الإشعارات",
+  "account": "الحساب",
+
+  "tabs": {
+    "home": "الرئيسية",
+    "bookings": "الحجوزات",
+    "notifications": "الإشعارات",
+    "account": "الحساب"
+  },
+
+  "services": {
+    "home": "تنظيف المنازل",
+    "laundry": "الغسيل",
+    "carpet": "تنظيف السجاد",
+    "kitchen": "المطبخ",
+    "office": "تنظيف المكاتب",
+    "apartment": "الشقق",
+    "deep": "تنظيف عميق",
+    "more": "المزيد"
+  },
+
+  "home": {
+    "welcome": "مرحباً بك في ركيز",
+    "our_services": "خدماتنا",
+    "subscribe_save": "اشترك ووفّر",
+    "request_once": "اطلب مرة واحدة",
+    "view_all": "عرض الكل",
+    "request": "اطلب الآن",
+    "discount_title": "خصم 20٪ على التنظيف العميق!",
+    "deep_furniture_cleaning": "تنظيف الأثاث العميق",
+    "deep_furniture_desc": "تنظيف بالبخار للأرائك والمراتب والستائر والسجاد",
+    "facade_cleaning": "تنظيف الواجهات الخارجية",
+    "facade_desc": "تلميع الزجاج والجدران الخارجية لتبدو لامعة ونظيفة",
+
+    "basic_package": "الباقة الأساسية",
+    "2_rooms": "غرفتان",
+    "1_bathroom": "حمام واحد",
+    "kitchen": "مطبخ",
+    "1_car": "سيارة واحدة",
+
+    "premium_package": "الباقة المميزة",
+    "full_apartment": "شقة كاملة",
+    "2_visits_weekly": "زيارتان أسبوعياً",
+    "3_cars": "ثلاث سيارات",
+    "garden": "حديقة",
+
+    "month": "شهر",
+    "price_label": "السعر الشهري"
+  },
+
+  "profile": {
+    "title": "الملف الشخصي",
+    "edit": "تعديل الملف الشخصي",
+    "logout": "تسجيل الخروج",
+    "addresses": "عناويني",
+    "add_address": "إضافة عنوان جديد",
+    "save_changes": "حفظ التغييرات"
+  },
+
+  "address": {
+    "title": "العناوين",
+    "add_new": "إضافة عنوان جديد",
+    "no_addresses": "لا توجد عناوين حالياً",
+    "default": "العنوان الافتراضي",
+    "save": "حفظ",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "city": "المدينة",
+    "street": "الشارع",
+    "building": "المبنى",
+    "apartment": "الشقة",
+    "note": "ملاحظات إضافية",
+    "choose_location": "اختيار الموقع على الخريطة"
+  },
+
+  "booking": {
+    "title": "طلب تنظيف",
+    "select_service": "اختر الخدمة",
+    "select_date": "اختر التاريخ",
+    "select_time": "اختر الوقت",
+    "confirm_booking": "تأكيد الحجز",
+    "success": "تم إنشاء الحجز بنجاح",
+    "my_bookings": "طلباتي الحالية"
+  },
+
+  "notifications_page": {
+    "title": "الإشعارات",
+    "no_notifications": "لا توجد إشعارات حالياً",
+    "new": "جديد",
+    "earlier": "سابقاً"
+  },
+
+  "buttons": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "continue": "متابعة",
+    "next": "التالي",
+    "previous": "السابق",
+    "back": "رجوع"
+  },
+
+  "errors": {
+    "required": "هذا الحقل مطلوب",
+    "invalid_email": "البريد الإلكتروني غير صالح",
+    "password_short": "كلمة المرور قصيرة جداً",
+    "unknown_error": "حدث خطأ غير متوقع"
+  },
+
+  "messages": {
+    "loading": "جارِ التحميل...",
+    "no_data": "لا توجد بيانات للعرض",
+    "success": "تمت العملية بنجاح",
+    "try_again": "حاول مرة أخرى"
+  },
+  "service_details": "تفاصيل الخدمة",
+  "ac_deep_cleaning": "تنظيف عميق لمكيف الهواء",
+  "ac_cleaning_description": "تنفس هواءً نقيًا ومنعشًا مع خدمة تنظيف المكيفات الاحترافية. نزيل الأتربة والبكتيريا لتحسين كفاءة التبريد.",
+  "warranty_message": "ضمان 7 أيام على جميع خدمات المكيفات",
+  "service_guarantee": "ضمان الخدمة",
+  "quality_assured": "جودة مضمونة",
+  "peace_of_mind": "راحة البال",
+  "price": "السعر",
+  "spare_parts_policy": "قطع الغيار غير مشمولة في السعر. سيتم إرسال عرض سعر قبل أي تكلفة إضافية.",
+  "spare_parts_agreement": "أفهم وأوافق أن قطع الغيار يتم احتسابها بشكل منفصل.",
+  "book_now": "احجز الآن",
+  "schedule": "تحديد موعد"
+}

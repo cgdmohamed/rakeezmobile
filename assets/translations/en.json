@@ -1,0 +1,139 @@
+{
+  "language": "English",
+  "login": "Login",
+  "register": "Register",
+  "email_phone": "Email / Phone",
+  "password": "Password",
+  "confirm": "Confirm",
+  "select_language": "Select Language",
+
+  "bookings": "Bookings",
+  "notifications": "Notifications",
+  "account": "Account",
+
+  "tabs": {
+    "home": "Home",
+    "bookings": "Bookings",
+    "notifications": "Notifications",
+    "account": "Account"
+  },
+
+  "services": {
+    "home": "Home Cleaning",
+    "laundry": "Laundry",
+    "carpet": "Carpet Cleaning",
+    "kitchen": "Kitchen",
+    "office": "Office Cleaning",
+    "apartment": "Apartments",
+    "deep": "Deep Cleaning",
+    "more": "More"
+  },
+
+  "home": {
+    "welcome": "Welcome to Raqeez",
+    "our_services": "Our Services",
+    "subscribe_save": "Subscribe & Save",
+    "request_once": "Request Once",
+    "view_all": "View All",
+    "request": "Request Now",
+    "discount_title": "Get 20% off Deep Cleaning!",
+    "deep_furniture_cleaning": "Deep Furniture Cleaning",
+    "deep_furniture_desc": "Steam cleaning for sofas, mattresses, curtains & carpets",
+    "facade_cleaning": "Facade Cleaning",
+    "facade_desc": "Glass & wall polishing to keep your building shining",
+
+    "basic_package": "Basic Package",
+    "2_rooms": "2 Rooms",
+    "1_bathroom": "1 Bathroom",
+    "kitchen": "Kitchen",
+    "1_car": "1 Car",
+
+    "premium_package": "Premium Package",
+    "full_apartment": "Full Apartment",
+    "2_visits_weekly": "2 Visits Weekly",
+    "3_cars": "3 Cars",
+    "garden": "Garden",
+
+    "month": "Month",
+    "price_label": "Monthly Price"
+  },
+
+  "profile": {
+    "title": "Profile",
+    "edit": "Edit Profile",
+    "logout": "Logout",
+    "addresses": "My Addresses",
+    "add_address": "Add New Address",
+    "save_changes": "Save Changes"
+  },
+
+  "address": {
+    "title": "Addresses",
+    "add_new": "Add New Address",
+    "no_addresses": "No saved addresses yet",
+    "default": "Default Address",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "city": "City",
+    "street": "Street",
+    "building": "Building",
+    "apartment": "Apartment",
+    "note": "Additional Notes",
+    "choose_location": "Select Location on Map"
+  },
+
+  "booking": {
+    "title": "Cleaning Request",
+    "select_service": "Select Service",
+    "select_date": "Select Date",
+    "select_time": "Select Time",
+    "confirm_booking": "Confirm Booking",
+    "success": "Booking created successfully",
+    "my_bookings": "My Bookings"
+  },
+
+  "notifications_page": {
+    "title": "Notifications",
+    "no_notifications": "No notifications yet",
+    "new": "New",
+    "earlier": "Earlier"
+  },
+
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "continue": "Continue",
+    "next": "Next",
+    "previous": "Previous",
+    "back": "Back"
+  },
+
+  "errors": {
+    "required": "This field is required",
+    "invalid_email": "Invalid email address",
+    "password_short": "Password is too short",
+    "unknown_error": "An unexpected error occurred"
+  },
+
+  "messages": {
+    "loading": "Loading...",
+    "no_data": "No data available",
+    "success": "Operation completed successfully",
+    "try_again": "Try again"
+  },
+
+  "service_details": "Service Details",
+  "ac_deep_cleaning": "Air Conditioner Deep Cleaning",
+  "ac_cleaning_description": "Breathe fresh and cool air with our professional AC deep cleaning. We remove dust, bacteria, and allergens to improve cooling efficiency.",
+  "warranty_message": "7-day warranty on all AC services",
+  "service_guarantee": "Service Guarantee",
+  "quality_assured": "Quality Assured",
+  "peace_of_mind": "Peace of Mind",
+  "price": "Price",
+  "spare_parts_policy": "Spare parts are not included in the price. A quotation will be sent to you before adding any cost.",
+  "spare_parts_agreement": "I understand and agree that spare parts are charged separately.",
+  "book_now": "Book Now",
+  "schedule": "Schedule"
+}
