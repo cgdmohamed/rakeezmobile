@@ -20,6 +20,8 @@ class CurrencyText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
     return Directionality(
       textDirection: TextDirection.ltr, // 👈 الاتجاه دايمًا من اليسار لليمين
       child: Row(
@@ -38,23 +40,13 @@ class CurrencyText extends StatelessWidget {
           const SizedBox(width: 4),
           Text(
             amount.toStringAsFixed(2),
-            style: textStyle ??
-                const TextStyle(
-                  fontFamily: "ExpoArabic",
-                  fontSize: 16,
-                  color: AppColors.textPrimary,
-                  fontWeight: FontWeight.w600,
-                ),
+            style: textStyle ?? theme.textTheme.bodyLarge?.copyWith(fontWeight: FontWeight.w600),
           ),
           if (showVat) ...[
             const SizedBox(width: 4),
             Text(
               "(inc. VAT)",
-              style: const TextStyle(
-                fontFamily: "ExpoArabic",
-                fontSize: 12,
-                color: AppColors.textSecondary,
-              ),
+              style: theme.textTheme.bodySmall,
             ),
           ],
         ],

@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import '../../presentation/auth/language_screen.dart';
 import '../../presentation/auth/login_screen.dart';
@@ -84,7 +83,6 @@ final appRouter = GoRouter(
 
     // user
     GoRoute(path: '/edit-profile', builder: (_, __) => const EditProfileScreen()),
-    GoRoute(path: '/support', builder: (_, __) => const SupportChatScreen()),
     GoRoute(path: '/location', builder: (_, __) => const LocationSelectionScreen()),
     GoRoute(path: '/addresses', builder: (_, __) => const AddressListScreen()),
     GoRoute(path: '/add-address', builder: (_, __) => const AddAddressScreen()),

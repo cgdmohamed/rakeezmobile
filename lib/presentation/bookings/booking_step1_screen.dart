@@ -66,7 +66,7 @@ class _BookingStep1ScreenState extends State<BookingStep1Screen> {
                 Switch(
                   value: urgent,
                   onChanged: (v) => setState(() => urgent = v),
-                  activeColor: const Color(0xFF2563EB),
+                  activeThumbColor: const Color(0xFF2563EB),
                 )
               ],
             ),

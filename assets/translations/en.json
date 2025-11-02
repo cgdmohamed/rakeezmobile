@@ -135,5 +135,8 @@
   "spare_parts_policy": "Spare parts are not included in the price. A quotation will be sent to you before adding any cost.",
   "spare_parts_agreement": "I understand and agree that spare parts are charged separately.",
   "book_now": "Book Now",
-  "schedule": "Schedule"
+  "schedule": "Schedule",
+  "wallet_balance": "Wallet Balance",
+  "top_up": "Top up",
+  "search_services": "Search for services..."
 }

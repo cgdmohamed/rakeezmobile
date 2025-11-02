@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 import '../../widgets/widgets.dart';
 import '../../../core/config/app_colors.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 
 
@@ -93,7 +92,7 @@ class _ServiceInfoCardState extends State<ServiceInfoCard> {
         const SizedBox(height: 8),
 
         PrimaryButton.large(
-          label: tr('book_now') + " ﷼${widget.price.toStringAsFixed(2)}",
+          label: "${tr('book_now')} ﷼${widget.price.toStringAsFixed(2)}",
           color: AppColors.primary,
           onTap: agreed ? widget.onBookNow : () {},
         ),

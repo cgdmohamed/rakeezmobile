@@ -2,10 +2,12 @@ import 'package:dio/dio.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 
+import 'endpoints.dart';
+
 class ApiClient {
   static final Dio _dio = Dio(
     BaseOptions(
-      baseUrl: 'https://rakeez.testcceg.com/api/v2',
+      baseUrl: ApiEndpoints.baseUrl,
       connectTimeout: const Duration(seconds: 15),
       receiveTimeout: const Duration(seconds: 15),
       headers: {'Accept': 'application/json'},

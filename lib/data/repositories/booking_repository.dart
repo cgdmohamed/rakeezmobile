@@ -1,7 +1,8 @@
 import 'package:dio/dio.dart';
 import '../network/api_client.dart';
+import '../network/api_error_handler.dart';
 
-class BookingRepository {
+class BookingRepository with ApiErrorHandler {
   final _dio = ApiClient.dio;
 
   Future<Map<String, dynamic>?> createBooking(Map<String, dynamic> data) async {
@@ -11,9 +12,8 @@ class BookingRepository {
         return Map<String, dynamic>.from(response.data['data']);
       }
       return null;
-    } catch (e) {
-      print('Booking create error: $e');
-      return null;
+    } on DioException catch (e) {
+      return handleApiError(e);
     }
   }
 
@@ -24,9 +24,8 @@ class BookingRepository {
         return Map<String, dynamic>.from(response.data['data']);
       }
       return null;
-    } catch (e) {
-      print('Booking detail error: $e');
-      return null;
+    } on DioException catch (e) {
+      return handleApiError(e);
     }
   }
 }

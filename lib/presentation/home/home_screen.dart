@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:easy_localization/easy_localization.dart';
 import 'widgets/home_header.dart';
 import 'widgets/home_slider.dart';
 import 'widgets/service_grid.dart';
@@ -7,6 +6,7 @@ import 'widgets/offer_banner.dart';
 import 'widgets/section_title.dart';
 import 'widgets/plan_card_list.dart';
 import 'widgets/request_card_list.dart';
+import 'widgets/home_app_bar.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -17,19 +17,17 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: background,
+      appBar: const HomeAppBar(),
       body: SafeArea(
         child: SingleChildScrollView(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: const [
-              HomeHeader(),
-              SizedBox(height: 20),
+
               HomeSlider(),
               SizedBox(height: 24),
 
-              SectionTitle(title: 'home.our_services'),
-              SizedBox(height: 10),
               ServiceGrid(),
               SizedBox(height: 24),
               OfferBanner(),

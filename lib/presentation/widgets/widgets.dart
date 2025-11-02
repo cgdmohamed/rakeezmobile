@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:easy_localization/easy_localization.dart';
 
 /// حقل إدخال نصوص موحد التصميم
 class InputField extends StatelessWidget {
@@ -19,19 +18,8 @@ class InputField extends StatelessWidget {
     return TextField(
       obscureText: obscureText,
       decoration: InputDecoration(
-        filled: true,
-        fillColor: const Color(0xFFF7F8FB),
         hintText: hint,
-        hintStyle: const TextStyle(
-          fontFamily: "ExpoArabic",
-          color: Colors.grey,
-          fontSize: 14,
-        ),
         prefixIcon: Icon(icon, color: Colors.grey),
-        border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(12),
-          borderSide: BorderSide.none,
-        ),
       ),
     );
   }

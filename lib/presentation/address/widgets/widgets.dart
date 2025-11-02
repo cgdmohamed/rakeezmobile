@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:easy_localization/easy_localization.dart';
 
 /// حقل إدخال نصوص موحد التصميم
 class InputField extends StatelessWidget {

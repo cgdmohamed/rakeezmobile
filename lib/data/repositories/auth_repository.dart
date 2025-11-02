@@ -2,8 +2,9 @@ import 'package:dio/dio.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import '../network/api_client.dart';
 import '../network/endpoints.dart';
+import '../network/api_error_handler.dart';
 
-class AuthRepository {
+class AuthRepository with ApiErrorHandler {
   final _dio = ApiClient.dio;
   final _storage = const FlutterSecureStorage();
 
@@ -31,8 +32,7 @@ class AuthRepository {
 
       return false;
     } on DioException catch (e) {
-      print('Login error: ${e.response?.data}');
-      return false;
+      return handleApiError(e, false) ?? false;
     }
   }
 
@@ -41,9 +41,8 @@ class AuthRepository {
     try {
       final response = await _dio.post(ApiEndpoints.register, data: data);
       return response.data['success'] == true;
-    } catch (e) {
-      print('Register error: $e');
-      return false;
+    } on DioException catch (e) {
+      return handleApiError(e, false) ?? false;
     }
   }
 
@@ -52,9 +51,8 @@ class AuthRepository {
     try {
       final response = await _dio.post(ApiEndpoints.verifyOtp, data: {'code': code});
       return response.data['success'] == true;
-    } catch (e) {
-      print('Verify error: $e');
-      return false;
+    } on DioException catch (e) {
+      return handleApiError(e, false) ?? false;
     }
   }
 

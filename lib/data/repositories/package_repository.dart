@@ -1,7 +1,8 @@
 import 'package:dio/dio.dart';
 import '../network/api_client.dart';
+import '../network/api_error_handler.dart';
 
-class PackageRepository {
+class PackageRepository with ApiErrorHandler {
   final _dio = ApiClient.dio;
 
   Future<List<Map<String, dynamic>>> getPackages() async {
@@ -11,9 +12,8 @@ class PackageRepository {
         return List<Map<String, dynamic>>.from(response.data['data']);
       }
       return [];
-    } catch (e) {
-      print('Package fetch error: $e');
-      return [];
+    } on DioException catch (e) {
+      return handleApiError(e, []) ?? [];
     }
   }
 }
